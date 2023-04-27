@@ -1,0 +1,205 @@
+/* Set a background color for the body */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Set some basic styles for the navbar */
+.navbar {
+  background-color: #e3f2fd;
+}
+
+.nav-link {
+  color: #000;
+  font-weight: bold;
+}
+
+
+
+/* Set styles for the home page */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 56px); /* subtract the height of the navbar */
+  
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home p {
+  font-size: 1.5rem;
+}
+
+/* Set styles for the about page */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 56px); /* subtract the height of the navbar */
+}
+
+.about h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.5rem;
+}
+
+/* Set styles for the contact page */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 56px); /* subtract the height of the navbar */
+}
+
+.contact h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1.5rem;
+}
+
+/* Set styles for the login page */
+.login {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.login input[type="text"],
+.login input[type="email"],
+.login input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.login input[type="text"]:focus,
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: #4CAF50;
+}
+
+.login button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.login p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: #555;
+}
+
+/* Set styles for the register page */
+.register {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.register h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.register label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.register input[type="text"],
+.register input[type="email"],
+.register input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.register input[type="text"]:focus,
+.register input[type="email"]:focus,
+.register input[type="password"]:focus {
+  border-color: #4CAF50;
+}
+
+.register button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.register p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: #555;
+}
+
+
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
